@@ -11,6 +11,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+
         <header style={{
           backgroundColor: 'lightblue',
           padding: '1rem',
@@ -19,6 +20,7 @@ export default function RootLayout({
         </header>
 
         {children}
+
         <footer style={{
           backgroundColor: 'lightgray',
           padding: '1rem',
